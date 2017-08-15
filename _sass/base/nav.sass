@@ -48,6 +48,9 @@ menu
       list-style: none
       margin: 0 .5em
       position: relative
+      height: 100%
+      overflow-y: auto
+      padding: 0
       li
         margin-bottom: 2.5em
         font-size: .85em
@@ -61,3 +64,11 @@ menu
           a:hover
             background: darken($pop, 5)
             text-decoration: underline
+@media (max-width: 750px)
+  span.scale-text
+    font-size: .8em
+@media (max-width: 375px)
+  .content header h2
+    font-size: 2.3em
+  span.scale-text
+    font-size: .7em
