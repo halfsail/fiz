@@ -1,0 +1,21 @@
+---
+layout: filter
+permalink: /sound/
+title: sound
+---
+
+
+    {% for designer in site.data.designers %}
+        {% if designer.category == "sound" %}
+            <!-- designer list -->
+            <li class="design-wrap">
+                    <a href="https://twitter.com/{{ designer.twitter }}">
+                <img class="rounded" src="https://avatars.io/twitter/{{designer.twitter}}
+          " alt="">
+                <p>{{ designer.designer }}</p>
+              </a>
+              <h5>{{designer.twitter}} • {{designer.school}}</h5>
+            </li>
+            <!-- end of designer list -->
+        {% endif %}
+    {% endfor %}
