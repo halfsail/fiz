@@ -4,18 +4,4 @@ permalink: /web/
 title: web
 ---
 
-
-    {% for designer in site.data.designers %}
-        {% if designer.category == "web" %}
-            <!-- designer list -->
-            <li class="design-wrap">
-                    <a href="https://twitter.com/{{ designer.twitter }}">
-                <img class="rounded" src="https://avatars.io/twitter/{{designer.twitter}}
-          " alt="">
-                <p>{{ designer.designer }}</p>
-              </a>
-              <h5>{{designer.twitter}} • {{designer.school}}</h5>
-            </li>
-            <!-- end of designer list -->
-        {% endif %}
-    {% endfor %}
+{% include sortLogic %}

@@ -1,7 +1,7 @@
 # Site settings
-title: 'fiz'
+title: 'Student Design Club'
 email: Kevin Feyder
-tagline: 'A Healthy Green Drink' # A brief tagline for your site
+tagline: 'Follow Designers like you' # A brief tagline for your site
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "hellolorem.com" # the base hostname & protocol for your site, e.g. http://example.com

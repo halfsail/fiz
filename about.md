@@ -9,7 +9,7 @@ permalink: /about
 <br>
 
 ### What is this whole thing about
-{{ site.name }} is a showcase of student designers doing some mind blowing design work. With the goal of helping other student design finding other designers to follow them on Instagram.
+{{ site.title }} is a showcase of student designers doing some mind blowing design work. With the goal of helping other student design finding other designers to follow them on Instagram.
 
 I will admit that this website is not based on an oringal idea. Insert Steve Job quote here. But is heavily base on [@julesforrest](https://twitter.com/julesforrest) website [womenwho.design](https://womenwho.design/) after I heard of it on the [Design Detail](https://spec.fm/podcasts/design-details) podcast. It sounded like a cool idea, shedding light on notable women in the design field. I wanted to do something similar but instead I want to be inspired by other student designers who were in similar stages of there careers.
 
@@ -34,3 +34,7 @@ Totally! Just send us a [email]({{site.baseurl}}/contact.html) suggesting the ca
 #### Can you remove me from your list
 
 Of course. If someone has nominated you but you rather not be on the list. Just send us an [email]({{site.baseurl}}/contact.html) or DM us at [{{ site.instagram }}](https://www.instagram.com/{{site.instagram}}) on Instagram and you will be removed immediately.
+
+#### Did people actually ask you these questions? Or are you, Like... Just coming up with these questions yourself?
+
+Uh...Ummm... No. Tons of people asked me these questions. Like all the time. I swear.

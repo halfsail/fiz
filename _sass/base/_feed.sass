@@ -11,12 +11,12 @@ body
     display: flex
     margin: 0
     padding: 0
-    @media (max-width: 750px)
-      flex-direction: column
-      flex-direction: column-reverse
-      .content
-        flex: 3
-        margin-right: 6em
+    // @media (max-width: 750px)
+    //   flex-direction: column
+    //   flex-direction: column-reverse
+    //   .content
+    //     flex: 3
+    //     margin-right: 6em
     aside
       order: 2
       background: $pop
@@ -24,8 +24,6 @@ body
       border-bottom: 1px solid darken($pop, $minus-sm)
       transition: all 0.3s ease
       overflow-y: auto
-      @media (max-width: 750px)
-        max-height: 150px
     .content
       order: 1
       flex: 2
@@ -61,7 +59,6 @@ article.article
   align-items: stretch
   justify-content: space-between
   .design-wrap
-    max-width: 128px
     margin: 2em 2em 2em 0
     text-align: center
     filter: grayscale(100%)
@@ -128,3 +125,28 @@ svg
   width: 2.3em
   height: 2.3em
   display: block
+
+@media (max-width: 750px)
+  .wrap
+    flex-direction: column
+    flex-direction: column-reverse
+    .content
+      flex: 3
+      padding: 1.5em
+      margin-right: 6em
+    aside.sidebar
+      max-height: 100px
+  .content article ul .design-wrap
+    margin: 0
+    .rounded
+      width: 96px
+      height: 96px
+      &::before
+        content: ' '
+        display: block
+        border-radius: 50%
+        height: 96px
+        width: 96px
+        background-image: url(../assets/images/default-avatar.jpg)
+        background-repeat: no-repeat
+        background-size: contain
